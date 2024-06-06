@@ -1,0 +1,29 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-06-03 23:03] ** ComfyUI startup time: 2024-06-03 23:03:18.088106
+[2024-06-03 23:03] ** Platform: Linux
+[2024-06-03 23:03] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-06-03 23:03] ** Python executable: /usr/bin/python
+[2024-06-03 23:03] ** Log path: /home/cash/ComfyUI/comfyui.log
+[2024-06-03 23:03] 
+Prestartup times for custom nodes:
+[2024-06-03 23:03]    0.0 seconds: /home/cash/ComfyUI/custom_nodes/rgthree-comfy
+[2024-06-03 23:03]    0.0 seconds: /home/cash/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-06-03 23:03] 
+Total VRAM 20154 MB, total RAM 64103 MB
+[2024-06-03 23:03] pytorch version: 2.3.0+cu121
+[2024-06-03 23:03] Set vram state to: HIGH_VRAM
+[2024-06-03 23:03] Device: cuda:0 NVIDIA RTX 4000 SFF Ada Generation : cudaMallocAsync
+[2024-06-03 23:03] VAE dtype: torch.bfloat16
+[2024-06-03 23:03] Using pytorch cross attention
+[2024-06-03 23:03] Traceback (most recent call last):
+[2024-06-03 23:03]   File "/home/cash/ComfyUI/main.py", line 76, in <module>
+[2024-06-03 23:03]     import execution
+[2024-06-03 23:03]   File "/home/cash/ComfyUI/execution.py", line 11, in <module>
+[2024-06-03 23:03]     import nodes
+[2024-06-03 23:03]   File "/home/cash/ComfyUI/nodes.py", line 22, in <module>
+[2024-06-03 23:03]     import comfy.samplers
+[2024-06-03 23:03]   File "/home/cash/ComfyUI/comfy/samplers.py", line 1, in <module>
+[2024-06-03 23:03]     from .k_diffusion import sampling as k_diffusion_sampling
+[2024-06-03 23:03]   File "/home/cash/ComfyUI/comfy/k_diffusion/sampling.py", line 3, in <module>
+[2024-06-03 23:03]     from scipy import integrate
+[2024-06-03 23:03] ModuleNotFoundError: No module named 'scipy'
